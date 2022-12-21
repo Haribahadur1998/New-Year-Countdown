@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image:url("background.jpg");
+    background-image:url("background2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -25,6 +25,7 @@ body{
 font-weight: normal;
 font-size: 60px;
 margin: -150px 0 40px;
+color: #ffff;
 }
 
 .countdown{
@@ -38,6 +39,7 @@ margin: -150px 0 40px;
     align-items: center;
     justify-content: center;
     margin: 15px;
+    
 }
 
 .time h2{
@@ -45,6 +47,11 @@ margin: -150px 0 40px;
     font-size: 36px;
     line-height: 1;
     margin: 0 0 5px;
+    color: #ffff;
+}
+
+small{
+    color: #ffff;
 }
 
 @media(max-width:500px){
